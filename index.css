@@ -11,7 +11,7 @@
 	background: var(--black-color);
 }
 
-body {  transition: all .3s;
+body, html {  transition: all .3s;
 	background: linear-gradient(-90deg, #ff8446, #4D00E2);
 	background-size: 200% 200%;
 	-webkit-animation: Gradient 5s ease infinite;
@@ -101,6 +101,10 @@ div.links a.link:hover, div.links a.link:active {
 	-webkit-animation: Gradient 10s ease infinite;
 	-moz-animation: Gradient 10s ease infinite;
 	animation: Gradient 10s ease infinite;**/
+}
+
+em {
+   color:inherit;
 }
 
 span {
