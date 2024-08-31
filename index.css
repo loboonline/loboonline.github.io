@@ -52,6 +52,10 @@ body, html {  transition: all .3s;
 	}
 }
 
+html {
+background:var(--black-color)!important;
+}
+
 .rainbow {
         /**position:sticky;
 	top:0;
