@@ -56,6 +56,10 @@ html {
 background:var(--black-color)!important;
 }
 
+body {
+	min-height:100vh;
+}
+
 .rainbow {
         /**position:sticky;
 	top:0;
