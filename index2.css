@@ -146,10 +146,14 @@ span,
 a {
    color: var(--text-color);
    transition: all .3s;
-   /*font-family: 'Montserrat', sans-serif!important;*/
-   font-family: "Bentham", serif;
+   font-family: 'Montserrat', sans-serif!important;
+   /*font-family: "Bentham", serif;*/
    font-weight: 400;
    font-style: normal;  
+}
+
+#bio p strong, a.link, h1 {
+    font-family: "Bentham", serif;
 }
 
 img.logo {
