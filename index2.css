@@ -152,7 +152,7 @@ a {
    font-style: normal;  
 }
 
-#bio p strong, h1 {
+#bio p strong, a h1, h1 {
     font-family: "Bentham", serif!important;
 }
 
