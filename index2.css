@@ -11,12 +11,14 @@
 	background: var(--black-color);
 }
 
-body, html {  transition: all .3s;
+body, html {  
+	background:var(--bg-color);
+	/**transition: all .3s;
 	background: linear-gradient(-90deg, #ff8446, #4D00E2);
 	background-size: 200% 200%;
 	-webkit-animation: Gradient 5s ease infinite;
 	-moz-animation: Gradient 5s ease infinite;
-	animation: Gradient 5s ease infinite;
+	animation: Gradient 5s ease infinite;*/
 }
 @-webkit-keyframes Gradient {
 	0% {
@@ -201,10 +203,11 @@ text-decoration:underline;
 }
 
 html {
-	--text-color: lavender;
-	--accent-color: lavender;
-	--white-color: black;
-	--black-color: black;
+	--bg-color: #8a0505;
+	--text-color: #fff;
+	--accent-color: #fff;
+	--white-color: #000;
+	--black-color: #000;
 	--bio:rgba(11,3,23,.5);
 	--shadows: rgba(125, 138, 124, 0.23);
 }
