@@ -206,7 +206,7 @@ text-decoration:none!important;
 #bio {
 	border: 2px solid var(--black-color);
 	border-radius:15px;
-	padding:20px 20px 4px 20px;
+	padding:20px 20px 0px 20px;
         background-color:var(--bio);
 }
 
