@@ -229,8 +229,8 @@ text-decoration:underline;
 
 html {
 	--bg-color: #680a0a;
-	--text-color: #fff;
-	--accent-color: #fff;
+	--text-color: azure;
+	--accent-color: azure;
 	--white-color: #000;
 	--black-color: #000;
 	--bio:azure;
