@@ -61,12 +61,14 @@ background:var(--black-color)!important;
 }
 
 body {
-	min-height:100vh;
+	/*min-height:100vh;*/
 	border: 10px solid var(--black-color);
+	border-radius:30px;
 }
 
 .canvas {
 	border: 2px solid var(--text-color);
+	border-radius:30px;
 }
 
 .rainbow {
