@@ -93,7 +93,7 @@ div.links {
 div.links a.link {
    width: 100%;
    padding: 10px;
-   background-color: var(--white-color);
+   background-color: var(--black-color);
    float: left;
    text-align: center;
    color: var(--text-color);
@@ -111,7 +111,7 @@ div.links a.link {
 
 div.links a.link:hover, div.links a.link:active {
    background-color: var(--accent-color);
-   color: var(--white-color);
+   color: var(--black-color);
    transform: translate(4px, 4px);
    box-shadow: var(--black-color) 8px 8px 0px 0px;
    border: 2px solid var(--black-color);
@@ -231,8 +231,7 @@ html {
 	--bg-color: #680a0a;
 	--text-color: azure;
 	--accent-color: azure;
-	--white-color: #000;
-	--black-color: #000;
+	--black-color: #080808;
 	--bio:azure;
 	--shadows: rgba(125, 138, 124, 0.23);
 }
