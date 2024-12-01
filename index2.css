@@ -228,11 +228,11 @@ text-decoration:underline;
 }
 
 html {
-	--bg-color: #680a0a;
+	--bg-color: #67080b;
 	--text-color: azure;
 	--accent-color: azure;
 	--black-color: #080808;
-	--bio:azure;
+	--bio: azure;
 	--shadows: rgba(125, 138, 124, 0.23);
 }
 
