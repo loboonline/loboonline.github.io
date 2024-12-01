@@ -63,12 +63,12 @@ background:var(--black-color)!important;
 body {
 	/*min-height:100vh;*/
 	border: 10px solid var(--black-color);
-	border-radius:40px;
+	/*border-radius:40px;*/
 }
 
 .canvas {
 	border: 2px solid var(--text-color);
-	border-radius:30px;
+	/*border-radius:30px;*/
 }
 
 .rainbow {
@@ -205,7 +205,7 @@ text-decoration:none!important;
 
 #bio {
 	border: 2px solid var(--black-color);
-	border-radius:30px;
+	border-radius:15px;
 	padding:20px 20px 10px 20px;
         background-color:var(--bio);
 }
