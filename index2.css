@@ -62,6 +62,11 @@ background:var(--black-color)!important;
 
 body {
 	min-height:100vh;
+	border: 10px solid var(--black-color);
+}
+
+.canvas {
+	border: 2px solid var(--text-color);
 }
 
 .rainbow {
