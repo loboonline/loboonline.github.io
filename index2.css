@@ -180,7 +180,7 @@ img.logo {
 }
 
 img.logo:hover, img.logo:active {
-    border:2px solid var(--black-color);
+    border:2px solid var(--gold-color);
     background:var(--black-color);
 }
 
@@ -194,7 +194,7 @@ a.desktop {
 }
 
 a.desktop:hover, a.desktop:active, a.desktop:focus, p a:hover, p a:active, p a:focus, a h1:hover, a h1:active, a h1:focus {
-    color: var(--black-color)!important;
+    color: var(--gold-color)!important;
     cursor:pointer;
     text-decoration:none!important;
 }
@@ -232,6 +232,7 @@ html {
 	--text-color: azure;
 	--accent-color: azure;
 	--black-color: #080808;
+	--gold-color: #ffbf00;
 	--bio: azure;
 	--shadows: rgba(125, 138, 124, 0.23);
 }
