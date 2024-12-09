@@ -222,7 +222,6 @@ text-decoration:none!important;
 #bio a {
 text-decoration:underline;
 color:var(--black-color)!important;
-font-weight:bold;
 }
 
 #bio a:hover, #bio a:active, #bio a:focus {
