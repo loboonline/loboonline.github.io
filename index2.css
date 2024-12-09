@@ -221,11 +221,13 @@ text-decoration:none!important;
 
 #bio a {
 text-decoration:underline;
+color:var(--black-color)!important;
+font-weight:bold;
 }
 
 #bio a:hover, #bio a:active, #bio a:focus {
-	color:var(--text-color)!important;
-	opacity:.5;
+	color:var(--gold-color)!important;
+	/*opacity:.5;*/
 }
 
 .hidden {
