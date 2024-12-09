@@ -209,14 +209,16 @@ text-decoration:none!important;
 #bio {
 	border: 2px solid var(--black-color);
 	/*border-radius:15px;*/
-	padding:20px 20px 10px 20px;
+	/*padding:20px 20px 10px 20px;*/
+	padding:0 0 10px 0;
         background-color:var(--bio);
 }
 
 #bio p {
 	color:var(--black-color);
 	margin:0px!important;
-	padding:0 0 10px 0!important;
+	/*padding:0 0 10px 0!important;*/
+	padding:0 20px 10px 20px!important;
 }
 
 #bio a {
