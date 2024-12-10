@@ -221,6 +221,10 @@ text-decoration:none!important;
 	padding:0 20px 10px 20px!important;
 }
 
+#bio img.bio-photo {
+	margin-bottom:20px!important;
+}
+
 #bio a {
 text-decoration:underline;
 color:var(--black-color)!important;
@@ -301,6 +305,10 @@ html {
 #bio p {
 	padding-left:10px!important;
 	padding-right:10px!important;
+}
+
+#bio img.bio-photo {
+	margin-bottom:10px!important;
 }
 }
 
