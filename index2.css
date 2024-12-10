@@ -294,8 +294,13 @@ html {
       font-size:25px;
    }
 */
-#bio {
+/*#bio {
 	padding:10px 10px 0px 10px!important;
+}*/
+
+#bio p {
+	padding-left:10px!important;
+	padding-right:10px!important;
 }
 }
 
