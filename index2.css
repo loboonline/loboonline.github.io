@@ -302,6 +302,9 @@ html {
 /*#bio {
 	padding:10px 10px 0px 10px!important;
 }*/
+#bio {
+	padding-bottom:0px!important;
+}
 
 #bio p {
 	padding-left:10px!important;
