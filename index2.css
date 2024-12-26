@@ -236,6 +236,11 @@ color:var(--bio-text)!important;
 	/*opacity:.5;*/
 }
 
+#theme-toggle {
+  float: right;
+  margin: 0 20px;
+}
+
 .hidden {
 	display:none;
 }
@@ -302,6 +307,14 @@ html {
 /*#bio {
 	padding:10px 10px 0px 10px!important;
 }*/
+
+#theme-toggle {
+  float:none;
+  display:block;
+  width:16px;
+  margin:0 auto;
+}
+	
 #bio {
 	padding-bottom:0px!important;
 }
