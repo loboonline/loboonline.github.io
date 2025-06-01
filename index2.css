@@ -63,14 +63,14 @@ background:var(--black-color)!important;
 
 body {
 	/*min-height:100vh;*/
-	border: 10px solid var(--black-color);
+	/*border: 10px solid var(--black-color);*/
 	/*border-radius:40px;*/
 }
 
 .canvas {
 	border: 2px solid var(--text-color);
 	background:var(--bg-color);
-	
+	margin:10px;
 	/*border-radius:30px;*/
 }
 
@@ -274,6 +274,8 @@ html {
 	.canvas {
 	max-width:75%;
 	margin:0 auto;
+	margin-top:10px;
+	margin-bottom:10px;
 	}
 }
 
@@ -281,6 +283,8 @@ html {
 	.canvas {
 	max-width:50%;
 	margin:0 auto;
+	margin-top:10px;
+	margin-bottom:10px;
 	}
 }
 
