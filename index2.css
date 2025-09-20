@@ -16,7 +16,7 @@
 
 body, html {  
 	background:var(--black-color);
-	/**transition: all .3s;
+/*	transition: all .3s;
 	background: linear-gradient(-90deg, #ff8446, #4D00E2);
 	background-size: 200% 200%;
 	-webkit-animation: Gradient 5s ease infinite;
@@ -57,6 +57,7 @@ body, html {
 	}
 }
 
+
 html {
 background:var(--black-color)!important;
 }
@@ -86,7 +87,7 @@ p, li, span, a {
 
 div.links {
    padding:30px 20px 0 20px;
-   width: 680px;
+   width: 710px;
    margin-left: auto;
    margin-right: auto;
    box-sizing: border-box;
@@ -255,9 +256,15 @@ html {
 	--shadows: rgba(125, 138, 124, 0.23);
 }
 
-@media (min-width: 691px) {
-
+@media (max-width: 712px) {
 	.hide-on-mobile {
+		display:none!important;
+	}
+}
+
+@media (min-width: 712px) {
+
+	.hide-on-desktop {
 		display:none!important;
 	}
 	
@@ -288,7 +295,7 @@ html {
 	}
 }
 
-@media (max-width: 690px) {	
+@media (max-width: 712px) {	
 	
 	a.desktop {
 	margin-bottom:20px;
@@ -332,6 +339,19 @@ html {
 	margin-bottom:10px!important;
 }
 }
+
+
+@media (max-width:296px) {
+  
+  .stamps img {width:47%!important;}
+  
+  }
+  
+@media (max-width:200px) {
+  
+  .stamps img {width:100%!important;}
+  
+  }
 
 html,
 html[data-theme="light"] {
