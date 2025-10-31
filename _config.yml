@@ -1,5 +1,5 @@
 # Site Info
-title:              "Lo's Links"
+title:              "Lobo's Links"
 description:        "Here are all my links."
 
 # Author Info
@@ -43,6 +43,7 @@ defaults:
       type:          "posts"
     values:
       layout:        "post"
+
 
 
 
